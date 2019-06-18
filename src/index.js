@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Hello from './Hello'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 ReactDOM.render(<Hello />, document.getElementById('root'));
 
