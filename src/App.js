@@ -1,8 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NameCard from './components/NameCard'
-const tags = ['尼安德塔人', '智人', '元謀人']
+// import NameCard from './components/NameCard'
+import LikesButton from './components/LikesButton'
+// const tags = ['尼安德塔人', '智人', '元謀人']
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
           Learn React
         </a>
       </header>
-      <NameCard name="Pitt" number={12345} isHuman tags={tags} />
+      {/* <NameCard name="Pitt" number={12345} isHuman tags={tags} /> */}
+      <LikesButton />
     </div>
   );
 }
