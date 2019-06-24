@@ -1,15 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NameCard from './components/NameCard'
+const tags = ['尼安德塔人', '智人', '元謀人']
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -19,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <NameCard name="Pitt" number={12345} isHuman tags={tags} />
     </div>
   );
 }
