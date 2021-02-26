@@ -1,12 +1,11 @@
 import React from "react";
 
-function Player(props) {
-  console.log(props);
+function Player({ name, age, desc }) {
   return (
     <div>
-      <h1>{props.name}</h1>
-      <h2>{props.age}</h2>
-      <p>{props.desc}</p>
+      <h1>{name}</h1>
+      <h2>{age}</h2>
+      <p>{desc}</p>
     </div>
   );
 }
