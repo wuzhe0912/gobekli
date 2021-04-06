@@ -1,22 +1,7 @@
-import React from "react";
-import "./styles/main.scss";
+import React from 'react';
 
 function App() {
-  const handle = (msg) => {
-    console.log(msg);
-  };
-
-  return (
-    <div className="App">
-      <button
-        onClick={() => {
-          handle("test");
-        }}
-      >
-        Submit
-      </button>
-    </div>
-  );
+  return <div className='App'>App</div>;
 }
 
 export default App;
